@@ -6,7 +6,6 @@ $queryKategori = mysqli_query($koneksi, "SELECT * FROM kategori");
 //mendapatkan produk berdasarkan nama produk/keyword
 if(isset($_GET['keyword'])){
     $queryProduk = mysqli_query($koneksi, "SELECT * FROM produk WHERE nama LIKE '%$_GET[keyword]%'");
-    $queryProduk = mysqli_query($koneksi, "SELECT * FROM kategori WHERE nama LIKE '%$_GET[keyword]%'");
 
 //mendapatkan produk dari kategori
 } else if (isset($_GET['kategori'])){
