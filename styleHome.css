@@ -1,0 +1,10 @@
+body {
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+.form-control{
+    width: 350px;
+}
